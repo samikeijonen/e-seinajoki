@@ -45,9 +45,10 @@ function e_seinajoki_front_page_info() {
 	*/
 
 	$cmb_group->add_group_field( $group_field_id, array(
-		'name' => esc_html__( 'Image', 'e-seinajoki' ),
-		'id'   => 'image',
-		'type' => 'file',
+		'name'        => esc_html__( 'Image', 'e-seinajoki' ),
+		'description' => esc_html__( 'Image size 880 x 495', 'e-seinajoki' ),
+		'id'          => 'image',
+		'type'        => 'file',
 	) );
 
 	$cmb_group->add_group_field( $group_field_id, array(
@@ -62,9 +63,9 @@ function e_seinajoki_front_page_info() {
 		'type'     => 'select',
 		'default'  => '089abf',
 		'options'  => array(
-			'089abf' => __( 'Blue (#089abf)', 'e-seinajoki' ),
-			'e6b012' => __( 'Yellow (#e6b012)', 'e-seinajoki' ),
-			'ca521f' => __( 'Brown (#e6b012)', 'e-seinajoki' ),
+			'39aecc' => __( 'Blue (#39aecc)', 'e-seinajoki' ),
+			'ebc041' => __( 'Yellow (#ebc041)', 'e-seinajoki' ),
+			'd5754c' => __( 'Brown (#d5754c)', 'e-seinajoki' ),
 		),
 	) );
 
