@@ -80,7 +80,7 @@ add_action( 'after_setup_theme', 'e_seinajoki_setup' );
  * @global int $content_width
  */
 function e_seinajoki_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'e_seinajoki_content_width', 640 );
+	$GLOBALS['content_width'] = apply_filters( 'e_seinajoki_content_width', 780 );
 }
 add_action( 'after_setup_theme', 'e_seinajoki_content_width', 0 );
 
@@ -142,6 +142,9 @@ add_filter( 'wp_resource_hints', 'e_seinajoki_resource_hints', 10, 2 );
  * Enqueue scripts and styles.
  */
 function e_seinajoki_scripts() {
+	// Get the minified suffix.
+	$suffix = e_seinajoki_get_min_suffix();
+
 	// Add custom fonts, used in the main stylesheet.
 	wp_enqueue_style( 'e-seinajoki-fonts', e_seinajoki_fonts_url(), array(), null );
 
@@ -149,7 +152,7 @@ function e_seinajoki_scripts() {
 	wp_enqueue_style( 'e-seinajoki-style', get_stylesheet_uri() );
 
 	// Skip to content JS.
-	wp_enqueue_script( 'e-seinajoki-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array(), '20161115', true );
+	wp_enqueue_script( 'e-seinajoki-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix' . $suffix . '.js', array(), '20161115', true );
 
 	// Font face observer JS for faster font loading.
 	wp_enqueue_script( 'e-seinajoki-font-observer', get_template_directory_uri() . '/assets/js/fontfaceobserver.js', array(), '20161115', true );
@@ -186,6 +189,11 @@ require get_template_directory() . '/inc/customizer.php';
  * SVG icons.
  */
 require get_template_directory() . '/inc/icon-functions.php';
+
+/**
+ * Scripts and styles related functions.
+ */
+require get_template_directory() . '/inc/scripts-styles-functions.php';
 
 /**
  * Metaboxes.
