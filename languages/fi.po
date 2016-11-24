@@ -1,0 +1,207 @@
+# Copyright (C) 2016 e-seinajoki
+# This file is distributed under the same license as the e-seinajoki package.
+msgid ""
+msgstr ""
+"Project-Id-Version: e-seinajoki\n"
+"Report-Msgid-Bugs-To: https://foxland.fi/contact/\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-11-24 09:58+0200\n"
+"Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
+"Language-Team: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Tätä sivua ei löydy."
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location."
+msgstr "Näyttää siltä että tällä sivulla ei ole mitään."
+
+#: footer.php:23
+msgid "Seinäjoki black logo"
+msgstr "Seinäjoen musta logo"
+
+#: functions.php:46
+msgid "Social Links Menu"
+msgstr "Somevalikko"
+
+#: functions.php:98
+msgctxt "PT Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "Hyppää sisältöön"
+
+#: header.php:33
+msgid "Seinäjoki blue logo"
+msgstr "Seinäjoen sininen logo"
+
+#: inc/icon-functions.php:81
+msgid "Please define default parameters in the form of an array."
+msgstr "Määritä parametrit array-muodossa."
+
+#: inc/icon-functions.php:91
+msgid "Please define an SVG icon filename."
+msgstr "Määritä SVG-ikonin nimi."
+
+#: inc/metaboxes.php:43
+msgid "Info"
+msgstr "Lisätiedot"
+
+#: inc/metaboxes.php:61
+msgid "Info boxes"
+msgstr "Infolaatikot"
+
+#: inc/metaboxes.php:65
+msgid "Info box {#}"
+msgstr "Infolaatikko {#}"
+
+#: inc/metaboxes.php:67
+msgid "Add Another Info box"
+msgstr "Lisää infolaatikko"
+
+#: inc/metaboxes.php:69
+msgid "Remove Info box"
+msgstr "Poista infolaatikko"
+
+#: inc/metaboxes.php:95
+msgid "Image"
+msgstr "Kuva"
+
+#: inc/metaboxes.php:97
+msgid "Image size 880 x 495"
+msgstr "Kuvan koko 880 x 495"
+
+#: inc/metaboxes.php:109
+msgid "Title"
+msgstr "Otsikko"
+
+#: inc/metaboxes.php:121
+msgid "Title color"
+msgstr "Otsikon väri"
+
+#: inc/metaboxes.php:131
+msgid "Blue (#39aecc)"
+msgstr "Sininen (#39aecc)"
+
+#: inc/metaboxes.php:133
+msgid "Yellow (#ebc041)"
+msgstr "Keltainen (#ebc041)"
+
+#: inc/metaboxes.php:135
+msgid "Brown (#d5754c)"
+msgstr "Ruskea (#d5754c)"
+
+#: inc/metaboxes.php:145
+msgid "Content"
+msgstr "Sisältö"
+
+#: inc/template-tags.php:28
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Kirjoitettu %s"
+
+#: inc/template-tags.php:33
+msgctxt "post author"
+msgid "by %s"
+msgstr "&ndash; %s"
+
+#: inc/template-tags.php:50, inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:52
+msgid "Posted in %1$s"
+msgstr "Artikkeli kategoriassa %1$s"
+
+#: inc/template-tags.php:58
+msgid "Tagged %1$s"
+msgstr "Avainsanat %1$s"
+
+#: inc/template-tags.php:65
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"Jätä kommentti<span class=\"screen-reader-text\"> artikkeliin %s</span>"
+
+#: inc/template-tags.php:72, template-parts/content-page.php:29
+msgid "Edit %s"
+msgstr "Muokkaa %s"
+
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr "Hakutulokset haulle %s"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Mitään ei löytynyt"
+
+#: template-parts/content-none.php:21
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Oletko valmis julkaisemaan ensimmäisen artikkelisi? <a href=“%1$s”>Aloita "
+"tästä</a>."
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Hakusi ei valitettavasti tuottanut yhtään tulosta. Yritä uudelleen eri "
+"hakusanoilla."
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Emme valitettavasti löytäneet etsimääsi. Ehkä hakutoiminnosta on apua."
+
+#: template-parts/content.php:33
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lue lisää %s <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid ""
+#~ "It looks like nothing was found at this location. Maybe try one of the "
+#~ "links below or a search?"
+#~ msgstr ""
+#~ "Näyttää siltä, että mitään ei löytynyt tästä osoitteesta. Koita navigoida "
+#~ "alla olevista linkeistä tai etsiä haluamaasi."
+
+#~ msgid "Most Used Categories"
+#~ msgstr "Käytetyimmät kategoriat"
+
+#~ msgid "Try looking in the monthly archives. %1$s"
+#~ msgstr "Koita etsiä kuukausiarkistosta. %1$s"
+
+#~ msgid "Comment navigation"
+#~ msgstr "Kommenttien selaus"
+
+#~ msgid "Older Comments"
+#~ msgstr "Vanhemmat kommentit"
+
+#~ msgid "Newer Comments"
+#~ msgstr "Uudemmat kommentit"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Kommentointi on suljettu."
+
+#~ msgid "Image Info"
+#~ msgstr "Kuvan tiedot"
+
+#~ msgid "Pages:"
+#~ msgstr "Sivut:"
