@@ -41,12 +41,14 @@
 						<?php
 					endif;
 
-					// Get post content in header.
-					global $post;
-					$post = get_post( get_the_ID() );
-					setup_postdata( $post );
-					the_content();
-					wp_reset_postdata();
+					if ( is_front_page() ) :
+						// Get post content in header.
+						global $post;
+						$post = get_post( get_the_ID() );
+						setup_postdata( $post );
+						the_content();
+						wp_reset_postdata();
+					endif;
 					?>
 
 				</div><!-- .site-branding -->
