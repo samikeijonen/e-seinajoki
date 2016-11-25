@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: e-seinajoki\n"
 "Report-Msgid-Bugs-To: https://foxland.fi/contact/\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-11-24 09:58+0200\n"
+"PO-Revision-Date: 2016-11-25 14:25+0200\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language: fi\n"
@@ -30,9 +30,9 @@ msgstr "Ups! Tätä sivua ei löydy."
 msgid "It looks like nothing was found at this location."
 msgstr "Näyttää siltä että tällä sivulla ei ole mitään."
 
-#: footer.php:23
-msgid "Seinäjoki black logo"
-msgstr "Seinäjoen musta logo"
+#: footer.php:23, header.php:33
+msgid "Seinäjoki"
+msgstr "Seinäjoki"
 
 #: functions.php:46
 msgid "Social Links Menu"
@@ -46,10 +46,6 @@ msgstr ""
 #: header.php:24
 msgid "Skip to content"
 msgstr "Hyppää sisältöön"
-
-#: header.php:33
-msgid "Seinäjoki blue logo"
-msgstr "Seinäjoen sininen logo"
 
 #: inc/icon-functions.php:81
 msgid "Please define default parameters in the form of an array."
@@ -174,6 +170,9 @@ msgstr "Emme valitettavasti löytäneet etsimääsi. Ehkä hakutoiminnosta on ap
 #: template-parts/content.php:33
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Lue lisää %s <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid "Seinäjoki black logo"
+#~ msgstr "Seinäjoen musta logo"
 
 #~ msgid ""
 #~ "It looks like nothing was found at this location. Maybe try one of the "
