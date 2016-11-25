@@ -508,9 +508,14 @@ table {
 	padding: 1.25rem;
 }
 
+.site-content {
+	background-color: #98d8e6;
+}
+
 @media screen and (min-width: 52.875em) {
 
 	.site-content {
+		background-image: url("assets/images/bg.jpg");
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
 	}
@@ -601,11 +606,6 @@ table {
 		margin-bottom: 0;
 	}
 
-}
-
-.site-content {
-	background-color: #98d8e6;
-	background-image: url("assets/images/bg.jpg");
 }
 
 .site-footer {
