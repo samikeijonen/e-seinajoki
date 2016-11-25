@@ -508,6 +508,10 @@ table {
 	padding: 1.25rem;
 }
 
+.entry-content p {
+	margin-left: 1em;
+}
+
 .site-content {
 	background-color: #98d8e6;
 }
