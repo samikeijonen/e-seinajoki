@@ -30,7 +30,7 @@
 				$logo_url = get_template_directory_uri() . '/assets/images/seinajoki_logo_550x301.png';
 				?>
 				<div class="logo-wrapper logo-header-wrapper">
-					<img class="logo-header logo" alt="<?php esc_html_e( 'Seinäjoki blue logo', 'e-seinajoki' ); ?>" src="<?php echo $logo_url; ?>">
+					<a href="http://www.seinajoki.fi/"><img class="logo-header logo" alt="<?php esc_html_e( 'Seinäjoki', 'e-seinajoki' ); ?>" src="<?php echo $logo_url; ?>"></a>
 				</div>
 				<div class="site-branding">
 					<?php

@@ -20,7 +20,7 @@
 				$logo_url = get_template_directory_uri() . '/assets/images/seinajoki_logo_footer.png';
 				?>
 				<div class="logo-wrapper logo-footer-wrapper">
-					<img class="logo-footer logo" alt="<?php esc_html_e( 'Seinäjoki black logo', 'e-seinajoki' ); ?>" src="<?php echo $logo_url; ?>">
+					<a href="http://www.seinajoki.fi/"><img class="logo-footer logo" alt="<?php esc_html_e( 'Seinäjoki', 'e-seinajoki' ); ?>" src="<?php echo $logo_url; ?>"></a>
 				</div>
 				<?php
 					// Get footer post meta.
