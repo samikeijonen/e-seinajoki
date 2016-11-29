@@ -149,14 +149,10 @@ function e_seinajoki_scripts() {
 	wp_enqueue_style( 'e-seinajoki-fonts', e_seinajoki_fonts_url(), array(), null );
 
 	// Add main styles.
-	wp_enqueue_style( 'e-seinajoki-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'evervest-style', get_stylesheet_directory_uri() . '/style' . $suffix . '.css', array(), '20161129' );
 
 	// Skip to content JS.
 	wp_enqueue_script( 'e-seinajoki-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix' . $suffix . '.js', array(), '20161115', true );
-
-	// Font face observer JS for faster font loading.
-	wp_enqueue_script( 'e-seinajoki-font-observer', get_template_directory_uri() . '/assets/js/fontfaceobserver.js', array(), '20161115', true );
-	wp_enqueue_script( 'e-seinajoki-font-observer-settings', get_template_directory_uri() . '/assets/js/settings.js', array( 'e-seinajoki-font-observer' ), '20161115', true );
 
 	// Comment reply JS, not really needed at the moment.
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
