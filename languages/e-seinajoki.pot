@@ -17,141 +17,189 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: 404.php:17
+#: 404.php:17, build/e-seinajoki/404.php:17
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: 404.php:21
+#: 404.php:21, build/e-seinajoki/404.php:21
 msgid "It looks like nothing was found at this location."
 msgstr ""
 
-#: footer.php:23, header.php:33
+#: build/e-seinajoki/footer.php:23, build/e-seinajoki/header.php:33, footer.php:23, header.php:33
 msgid "Seinäjoki"
 msgstr ""
 
-#: functions.php:46
+#: build/e-seinajoki/functions.php:46, functions.php:46
 msgid "Social Links Menu"
 msgstr ""
 
-#: functions.php:98
+#: build/e-seinajoki/functions.php:98, functions.php:98
 msgctxt "PT Sans font: on or off"
 msgid "on"
 msgstr ""
 
-#: header.php:24
+#: build/e-seinajoki/header.php:24, header.php:24
 msgid "Skip to content"
 msgstr ""
 
-#: inc/icon-functions.php:81
+#: build/e-seinajoki/inc/icon-functions.php:81, inc/icon-functions.php:81
 msgid "Please define default parameters in the form of an array."
 msgstr ""
 
-#: inc/icon-functions.php:91
+#: build/e-seinajoki/inc/icon-functions.php:91, inc/icon-functions.php:91
 msgid "Please define an SVG icon filename."
 msgstr ""
 
-#: inc/metaboxes.php:43
+#: build/e-seinajoki/inc/metaboxes.php:43, inc/metaboxes.php:43
 msgid "Info"
 msgstr ""
 
-#: inc/metaboxes.php:61
+#: build/e-seinajoki/inc/metaboxes.php:61, inc/metaboxes.php:61
 msgid "Info boxes"
 msgstr ""
 
-#: inc/metaboxes.php:65
+#: build/e-seinajoki/inc/metaboxes.php:65, inc/metaboxes.php:65
 msgid "Info box {#}"
 msgstr ""
 
-#: inc/metaboxes.php:67
+#: build/e-seinajoki/inc/metaboxes.php:67, inc/metaboxes.php:67
 msgid "Add Another Info box"
 msgstr ""
 
-#: inc/metaboxes.php:69
+#: build/e-seinajoki/inc/metaboxes.php:69, inc/metaboxes.php:69
 msgid "Remove Info box"
 msgstr ""
 
-#: inc/metaboxes.php:95
+#: build/e-seinajoki/inc/metaboxes.php:95, inc/metaboxes.php:95
 msgid "Image"
 msgstr ""
 
-#: inc/metaboxes.php:97
+#: build/e-seinajoki/inc/metaboxes.php:97, inc/metaboxes.php:97
 msgid "Image size 880 x 495"
 msgstr ""
 
-#: inc/metaboxes.php:109
+#: build/e-seinajoki/inc/metaboxes.php:109, inc/metaboxes.php:109
 msgid "Title"
 msgstr ""
 
-#: inc/metaboxes.php:121
+#: build/e-seinajoki/inc/metaboxes.php:121, inc/metaboxes.php:121
 msgid "Title color"
 msgstr ""
 
-#: inc/metaboxes.php:131
+#: build/e-seinajoki/inc/metaboxes.php:131, inc/metaboxes.php:131
 msgid "Blue (#39aecc)"
 msgstr ""
 
-#: inc/metaboxes.php:133
+#: build/e-seinajoki/inc/metaboxes.php:133, inc/metaboxes.php:133
 msgid "Yellow (#ebc041)"
 msgstr ""
 
-#: inc/metaboxes.php:135
+#: build/e-seinajoki/inc/metaboxes.php:135, inc/metaboxes.php:135
 msgid "Brown (#d5754c)"
 msgstr ""
 
-#: inc/metaboxes.php:145
+#: build/e-seinajoki/inc/metaboxes.php:145, inc/metaboxes.php:145
 msgid "Content"
 msgstr ""
 
-#: inc/template-tags.php:28
+#: build/e-seinajoki/inc/template-tags.php:28, inc/template-tags.php:28
 msgctxt "post date"
 msgid "Posted on %s"
 msgstr ""
 
-#: inc/template-tags.php:33
+#: build/e-seinajoki/inc/template-tags.php:33, inc/template-tags.php:33
 msgctxt "post author"
 msgid "by %s"
 msgstr ""
 
-#: inc/template-tags.php:50, inc/template-tags.php:56
+#: build/e-seinajoki/inc/template-tags.php:50, build/e-seinajoki/inc/template-tags.php:56, inc/template-tags.php:50, inc/template-tags.php:56
 msgid ", "
 msgstr ""
 
-#: inc/template-tags.php:52
+#: build/e-seinajoki/inc/template-tags.php:52, inc/template-tags.php:52
 msgid "Posted in %1$s"
 msgstr ""
 
-#: inc/template-tags.php:58
+#: build/e-seinajoki/inc/template-tags.php:58, inc/template-tags.php:58
 msgid "Tagged %1$s"
 msgstr ""
 
-#: inc/template-tags.php:65
+#: build/e-seinajoki/inc/template-tags.php:65, inc/template-tags.php:65
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 
-#: inc/template-tags.php:72, template-parts/content-page.php:29
+#: build/e-seinajoki/inc/template-tags.php:72, build/e-seinajoki/template-parts/content-page.php:29, inc/template-tags.php:72, template-parts/content-page.php:29
 msgid "Edit %s"
 msgstr ""
 
-#: search.php:19
+#: build/e-seinajoki/search.php:19, search.php:19
 msgid "Search Results for: %s"
 msgstr ""
 
-#: template-parts/content-none.php:14
+#: build/e-seinajoki/template-parts/content-none.php:14, template-parts/content-none.php:14
 msgid "Nothing Found"
 msgstr ""
 
-#: template-parts/content-none.php:21
+#: build/e-seinajoki/template-parts/content-none.php:21, template-parts/content-none.php:21
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: template-parts/content-none.php:25
+#: build/e-seinajoki/template-parts/content-none.php:25, template-parts/content-none.php:25
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
-#: template-parts/content-none.php:31
+#: build/e-seinajoki/template-parts/content-none.php:31, template-parts/content-none.php:31
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr ""
 
-#: template-parts/content.php:33
+#: build/e-seinajoki/template-parts/content.php:33, template-parts/content.php:33
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/metaboxes.php:189
+msgid "Footer Info"
+msgstr ""
+
+#: inc/metaboxes.php:209
+msgid "Left column title"
+msgstr ""
+
+#: inc/metaboxes.php:223
+msgid "Left column"
+msgstr ""
+
+#: inc/metaboxes.php:237
+msgid "Right column title"
+msgstr ""
+
+#: inc/metaboxes.php:251
+msgid "Right column"
+msgstr ""
+
+#: inc/metaboxes.php:265
+msgid "Social media title"
+msgstr ""
+
+#: inc/metaboxes.php:307
+msgid "Footer emails"
+msgstr ""
+
+#: inc/metaboxes.php:325
+msgid "Email fields"
+msgstr ""
+
+#: inc/metaboxes.php:329
+msgid "Email {#}"
+msgstr ""
+
+#: inc/metaboxes.php:331
+msgid "Add Another Email"
+msgstr ""
+
+#: inc/metaboxes.php:333
+msgid "Remove Email"
+msgstr ""
+
+#: inc/metaboxes.php:359
+msgid "Email"
 msgstr ""
