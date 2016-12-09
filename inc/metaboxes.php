@@ -83,7 +83,7 @@ add_action( 'cmb2_admin_init', 'e_seinajoki_front_page_info' );
  *
  * @since 1.0.0
  */
-function e_seinäjoki_front_page_footer() {
+function e_seinajoki_front_page_footer() {
 	// Start with an underscore to hide fields from custom fields list.
 	$prefix = '_e_seinajoki_';
 
@@ -92,7 +92,7 @@ function e_seinäjoki_front_page_footer() {
 	 */
 	$metaboxes = new_cmb2_box( array(
 		'id'           => $prefix . 'footer',
-		'title'        => esc_html__( 'Footer Info', 'ansiomerkit-2016' ),
+		'title'        => esc_html__( 'Footer Info', 'e-seinajoki' ),
 		'object_types' => array( 'page', ),
 		'show_on'      => array( 'key' => 'page-template', 'value' => 'templates/front-page.php' ),
 		'context'      => 'normal',
@@ -102,37 +102,84 @@ function e_seinäjoki_front_page_footer() {
 
 	// Regular text field.
 	$metaboxes->add_field( array(
-		'name' => esc_html__( 'Left column title', 'ansiomerkit-2016' ),
+		'name' => esc_html__( 'Left column title', 'e-seinajoki' ),
 		'id'   => $prefix . 'footer_cl_1_title',
 		'type' => 'text',
 	) );
 
 	// Regular wysiwyg field.
 	$metaboxes->add_field( array(
-		'name' => esc_html__( 'Left column', 'ansiomerkit-2016' ),
+		'name' => esc_html__( 'Left column', 'e-seinajoki' ),
 		'id'   => $prefix . 'footer_cl_1_text',
 		'type' => 'wysiwyg',
 	) );
 
 	// Regular text field.
 	$metaboxes->add_field( array(
-		'name' => esc_html__( 'Right column title', 'ansiomerkit-2016' ),
+		'name' => esc_html__( 'Right column title', 'e-seinajoki' ),
 		'id'   => $prefix . 'footer_cl_2_title',
 		'type' => 'text',
 	) );
 
 	// Regular wysiwyg field.
 	$metaboxes->add_field( array(
-		'name' => esc_html__( 'Right column', 'ansiomerkit-2016' ),
+		'name' => esc_html__( 'Right column', 'e-seinajoki' ),
 		'id'   => $prefix . 'footer_cl_2_text',
 		'type' => 'wysiwyg',
 	) );
 
 	// Regular text field.
 	$metaboxes->add_field( array(
-		'name' => esc_html__( 'Social media title', 'ansiomerkit-2016' ),
+		'name' => esc_html__( 'Social media title', 'e-seinajoki' ),
 		'id'   => $prefix . 'footer_social_title',
 		'type' => 'text',
 	) );
 }
-add_action( 'cmb2_admin_init', 'e_seinäjoki_front_page_footer' );
+add_action( 'cmb2_admin_init', 'e_seinajoki_front_page_footer' );
+
+/**
+ * Define the metabox and field configurations for Front Page Info Boxes.
+ *
+ * @since 1.0.0
+ */
+function e_seinajoki_email_fields_footer() {
+	// Start with an underscore to hide fields from custom fields list
+	$prefix = '_e_seinajoki_';
+
+	/**
+	* Repeatable Field Groups
+	*/
+	$cmb_group = new_cmb2_box( array(
+		'id'           => $prefix . 'footer_emails',
+		'title'        => esc_html__( 'Footer emails', 'e-seinajoki' ),
+		'object_types' => array( 'page', ),
+		'show_on'      => array( 'key' => 'page-template', 'value' => 'templates/front-page.php' ),
+	) );
+
+	// $group_field_id is the field id string, so in this case: $prefix . 'footer_emails'
+	$group_field_id = $cmb_group->add_field( array(
+		'id'          => $prefix . 'footer_emails',
+		'type'        => 'group',
+		'description' => esc_html__( 'Email fields', 'e-seinajoki' ),
+		'options'     => array(
+			'group_title'   => esc_html__( 'Email {#}', 'e-seinajoki' ), // {#} gets replaced by row number
+			'add_button'    => esc_html__( 'Add Another Email', 'e-seinajoki' ),
+			'remove_button' => esc_html__( 'Remove Email', 'e-seinajoki' ),
+			'sortable'      => false, // beta
+		),
+	) );
+
+	/**
+	* Group fields works the same, except ids only need
+	* to be unique to the group. Prefix is not needed.
+	*
+	* The parent field's id needs to be passed as the first argument.
+	*/
+
+	$cmb_group->add_group_field( $group_field_id, array(
+		'name' => esc_html__( 'Email', 'e-seinajoki' ),
+		'id'   => 'email',
+		'type' => 'text_email',
+	) );
+}
+add_action( 'cmb2_admin_init', 'e_seinajoki_email_fields_footer' );

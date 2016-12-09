@@ -29,6 +29,9 @@
 					$footer_cl_2_title = e_seinajoki_get_post_meta( 'footer_cl_2_title' );
 					$footer_cl_2_text  = e_seinajoki_get_post_meta( 'footer_cl_2_text' );
 
+					// Get footer emails.
+					$footer_emails = e_seinajoki_get_post_meta( 'footer_emails' );
+
 					// First column.
 					if ( isset( $footer_cl_1_title ) && $footer_cl_1_title && isset( $footer_cl_1_text ) && $footer_cl_1_text ) :
 
@@ -36,8 +39,19 @@
 						if ( isset( $footer_cl_1_title ) && $footer_cl_1_title ) :
 							echo '<h2 class="footer-area-title">' . esc_html( $footer_cl_1_title ) . '</h2>';
 						endif;
+
 						if ( isset( $footer_cl_1_text ) && $footer_cl_1_text ) :
 							echo wpautop( wp_kses_post( $footer_cl_1_text ) );
+						endif;
+
+						if ( isset( $footer_emails ) && $footer_emails ) :
+							echo '<p>';
+							foreach ( $footer_emails as $footer_emails ) :
+								if ( isset( $footer_emails['email'] ) && $footer_emails['email'] ) :
+									echo '<a href="mailto:' . antispambot( $footer_emails['email'] ) . '">' . antispambot( $footer_emails['email'] ) . '</a><br>';
+								endif;
+							endforeach;
+							echo '</p>';
 						endif;
 						echo '</div><!-- .footer-area-1 -->';
 
