@@ -92,15 +92,15 @@ function e_seinajoki_fonts_url() {
 
 	/**
 	 * Translators: If there are characters in your language that are not
-	 * supported by Libre Franklin, translate this to 'off'. Do not translate
+	 * supported by Roboto Slab, translate this to 'off'. Do not translate
 	 * into your own language.
 	 */
-	$pt_sans = _x( 'on', 'PT Sans font: on or off', 'e-seinajoki' );
+	$pt_sans = _x( 'on', 'Roboto Slab font: on or off', 'e-seinajoki' );
 
 	if ( 'off' !== $pt_sans ) {
 		$font_families = array();
 
-		$font_families[] = 'PT Sans:400,700';
+		$font_families[] = 'Roboto Slab:400,700';
 
 		$query_args = array(
 			'family' => urlencode( implode( '|', $font_families ) ),
@@ -116,10 +116,9 @@ function e_seinajoki_fonts_url() {
 /**
  * Add preconnect for Google Fonts.
  *
- * @since Twenty Seventeen 1.0
  *
- * @param array  $urls          URLs to print for resource hints.
- * @param string $relation_type The relation type the URLs are printed.
+ * @param  array  $urls          URLs to print for resource hints.
+ * @param  string $relation_type The relation type the URLs are printed.
  * @return array $urls          URLs to print for resource hints.
  */
 function e_seinajoki_resource_hints( $urls, $relation_type ) {
@@ -149,7 +148,7 @@ function e_seinajoki_scripts() {
 	wp_enqueue_style( 'e-seinajoki-fonts', e_seinajoki_fonts_url(), array(), null );
 
 	// Add main styles.
-	wp_enqueue_style( 'evervest-style', get_stylesheet_directory_uri() . '/style' . $suffix . '.css', array(), '20161129' );
+	wp_enqueue_style( 'evervest-style', get_stylesheet_directory_uri() . '/style' . $suffix . '.css', array(), '20170427' );
 
 	// Skip to content JS.
 	wp_enqueue_script( 'e-seinajoki-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix' . $suffix . '.js', array(), '20161115', true );
