@@ -17,7 +17,7 @@
 		<div class="site-info">
 			<div class="grid-footer-wrapper">
 				<?php
-				$logo_url = get_template_directory_uri() . '/assets/images/seinajoki_logo_footer.png';
+				$logo_url = get_template_directory_uri() . '/assets/images/seinajoki_tekstilogo_w400.png';
 				?>
 				<div class="logo-wrapper logo-footer-wrapper">
 					<a href="http://www.seinajoki.fi/"><img class="logo-footer logo" alt="<?php esc_html_e( 'Seinäjoki', 'e-seinajoki' ); ?>" src="<?php echo $logo_url; ?>"></a>
