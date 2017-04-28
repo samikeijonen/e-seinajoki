@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: e-seinajoki\n"
 "Report-Msgid-Bugs-To: https://foxland.fi/contact/\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-12-01 16:28+0200\n"
+"PO-Revision-Date: 2017-04-27 18:33+0300\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language: fi\n"
@@ -18,141 +18,182 @@ msgstr ""
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: 404.php:17, build/e-seinajoki/404.php:17
+#: 404.php:17
 msgid "Oops! That page can&rsquo;t be found."
 msgstr "Ups! Tätä sivua ei löydy."
 
-#: 404.php:21, build/e-seinajoki/404.php:21
+#: 404.php:21
 msgid "It looks like nothing was found at this location."
 msgstr "Näyttää siltä että tällä sivulla ei ole mitään."
 
-#: build/e-seinajoki/footer.php:23, build/e-seinajoki/header.php:33,
 #: footer.php:23, header.php:33
 msgid "Seinäjoki"
 msgstr "Seinäjoki"
 
-#: build/e-seinajoki/functions.php:46, functions.php:46
+#: functions.php:46
 msgid "Social Links Menu"
 msgstr "Somevalikko"
 
-#: build/e-seinajoki/functions.php:98, functions.php:98
-msgctxt "PT Sans font: on or off"
+#: functions.php:98
+msgctxt "Roboto Slab font: on or off"
 msgid "on"
 msgstr ""
 
-#: build/e-seinajoki/header.php:24, header.php:24
+#: header.php:24
 msgid "Skip to content"
 msgstr "Hyppää sisältöön"
 
-#: build/e-seinajoki/inc/icon-functions.php:81, inc/icon-functions.php:81
+#: inc/icon-functions.php:41
 msgid "Please define default parameters in the form of an array."
 msgstr "Määritä parametrit array-muodossa."
 
-#: build/e-seinajoki/inc/icon-functions.php:91, inc/icon-functions.php:91
+#: inc/icon-functions.php:46
 msgid "Please define an SVG icon filename."
 msgstr "Määritä SVG-ikonin nimi."
 
-#: build/e-seinajoki/inc/metaboxes.php:43, inc/metaboxes.php:43
+#: inc/metaboxes.php:22
 msgid "Info"
 msgstr "Lisätiedot"
 
-#: build/e-seinajoki/inc/metaboxes.php:61, inc/metaboxes.php:61
+#: inc/metaboxes.php:31
 msgid "Info boxes"
 msgstr "Infolaatikot"
 
-#: build/e-seinajoki/inc/metaboxes.php:65, inc/metaboxes.php:65
+#: inc/metaboxes.php:33
 msgid "Info box {#}"
 msgstr "Infolaatikko {#}"
 
-#: build/e-seinajoki/inc/metaboxes.php:67, inc/metaboxes.php:67
+#: inc/metaboxes.php:34
 msgid "Add Another Info box"
 msgstr "Lisää infolaatikko"
 
-#: build/e-seinajoki/inc/metaboxes.php:69, inc/metaboxes.php:69
+#: inc/metaboxes.php:35
 msgid "Remove Info box"
 msgstr "Poista infolaatikko"
 
-#: build/e-seinajoki/inc/metaboxes.php:95, inc/metaboxes.php:95
+#: inc/metaboxes.php:48
 msgid "Image"
 msgstr "Kuva"
 
-#: build/e-seinajoki/inc/metaboxes.php:97, inc/metaboxes.php:97
+#: inc/metaboxes.php:49
 msgid "Image size 880 x 495"
 msgstr "Kuvan koko 880 x 495"
 
-#: build/e-seinajoki/inc/metaboxes.php:109, inc/metaboxes.php:109
+#: inc/metaboxes.php:55
 msgid "Title"
 msgstr "Otsikko"
 
-#: build/e-seinajoki/inc/metaboxes.php:121, inc/metaboxes.php:121
+#: inc/metaboxes.php:61
 msgid "Title color"
 msgstr "Otsikon väri"
 
-#: build/e-seinajoki/inc/metaboxes.php:131, inc/metaboxes.php:131
-msgid "Blue (#39aecc)"
-msgstr "Sininen (#39aecc)"
+#: inc/metaboxes.php:66
+msgid "Turquoise (#0099ab)"
+msgstr "Turkoosi (#0099ab)"
 
-#: build/e-seinajoki/inc/metaboxes.php:133, inc/metaboxes.php:133
-msgid "Yellow (#ebc041)"
-msgstr "Keltainen (#ebc041)"
+#: inc/metaboxes.php:67
+msgid "Yellow (#ffc425)"
+msgstr "Keltainen (#ffc425)"
 
-#: build/e-seinajoki/inc/metaboxes.php:135, inc/metaboxes.php:135
-msgid "Brown (#d5754c)"
-msgstr "Ruskea (#d5754c)"
+#: inc/metaboxes.php:68
+msgid "Pink (#e50e63)"
+msgstr "Pinkki (#e50e63)"
 
-#: build/e-seinajoki/inc/metaboxes.php:145, inc/metaboxes.php:145
+#: inc/metaboxes.php:73
 msgid "Content"
 msgstr "Sisältö"
 
-#: build/e-seinajoki/inc/template-tags.php:28, inc/template-tags.php:28
+#: inc/metaboxes.php:95
+msgid "Footer Info"
+msgstr "Alapalkin info."
+
+#: inc/metaboxes.php:105
+msgid "Left column title"
+msgstr "Vasemman sarakkeen otsikko"
+
+#: inc/metaboxes.php:112
+msgid "Left column"
+msgstr "Vasen sarake"
+
+#: inc/metaboxes.php:119
+msgid "Right column title"
+msgstr "Oikean sarakkeen otsikko"
+
+#: inc/metaboxes.php:126
+msgid "Right column"
+msgstr "Oikea sarake"
+
+#: inc/metaboxes.php:133
+msgid "Social media title"
+msgstr "Sosiaalisen media otsikko"
+
+#: inc/metaboxes.php:154
+msgid "Footer emails"
+msgstr "Footerin sähköpostiosoitteet"
+
+#: inc/metaboxes.php:163
+msgid "Email fields"
+msgstr "Sähköpostiosoitteet"
+
+#: inc/metaboxes.php:165
+msgid "Email {#}"
+msgstr "Sähköposti {#}"
+
+#: inc/metaboxes.php:166
+msgid "Add Another Email"
+msgstr "Lisää uusi sähköposti"
+
+#: inc/metaboxes.php:167
+msgid "Remove Email"
+msgstr "Poista sähköposti"
+
+#: inc/metaboxes.php:180
+msgid "Email"
+msgstr "Sähköposti"
+
+#: inc/template-tags.php:28
 msgctxt "post date"
 msgid "Posted on %s"
 msgstr "Kirjoitettu %s"
 
-#: build/e-seinajoki/inc/template-tags.php:33, inc/template-tags.php:33
+#: inc/template-tags.php:33
 msgctxt "post author"
 msgid "by %s"
 msgstr "&ndash; %s"
 
-#: build/e-seinajoki/inc/template-tags.php:50,
-#: build/e-seinajoki/inc/template-tags.php:56, inc/template-tags.php:50,
-#: inc/template-tags.php:56
+#: inc/template-tags.php:50, inc/template-tags.php:56
 msgid ", "
 msgstr ""
 
-#: build/e-seinajoki/inc/template-tags.php:52, inc/template-tags.php:52
+#: inc/template-tags.php:52
 msgid "Posted in %1$s"
 msgstr "Artikkeli kategoriassa %1$s"
 
-#: build/e-seinajoki/inc/template-tags.php:58, inc/template-tags.php:58
+#: inc/template-tags.php:58
 msgid "Tagged %1$s"
 msgstr "Avainsanat %1$s"
 
-#: build/e-seinajoki/inc/template-tags.php:65, inc/template-tags.php:65
+#: inc/template-tags.php:65
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 "Jätä kommentti<span class=\"screen-reader-text\"> artikkeliin %s</span>"
 
-#: build/e-seinajoki/inc/template-tags.php:72,
-#: build/e-seinajoki/template-parts/content-page.php:29,
 #: inc/template-tags.php:72, template-parts/content-page.php:29
 msgid "Edit %s"
 msgstr "Muokkaa %s"
 
-#: build/e-seinajoki/search.php:19, search.php:19
+#: search.php:19
 msgid "Search Results for: %s"
 msgstr "Hakutulokset haulle %s"
 
-#: build/e-seinajoki/template-parts/content-none.php:14,
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
 msgstr "Mitään ei löytynyt"
 
-#: build/e-seinajoki/template-parts/content-none.php:21,
 #: template-parts/content-none.php:21
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
@@ -160,7 +201,6 @@ msgstr ""
 "Oletko valmis julkaisemaan ensimmäisen artikkelisi? <a href=“%1$s”>Aloita "
 "tästä</a>."
 
-#: build/e-seinajoki/template-parts/content-none.php:25,
 #: template-parts/content-none.php:25
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
@@ -169,65 +209,24 @@ msgstr ""
 "Hakusi ei valitettavasti tuottanut yhtään tulosta. Yritä uudelleen eri "
 "hakusanoilla."
 
-#: build/e-seinajoki/template-parts/content-none.php:31,
 #: template-parts/content-none.php:31
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr "Emme valitettavasti löytäneet etsimääsi. Ehkä hakutoiminnosta on apua."
 
-#: build/e-seinajoki/template-parts/content.php:33,
 #: template-parts/content.php:33
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Lue lisää %s <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/metaboxes.php:189
-msgid "Footer Info"
-msgstr "Alapalkin info."
+#~ msgid "Blue (#39aecc)"
+#~ msgstr "Sininen (#39aecc)"
 
-#: inc/metaboxes.php:209
-msgid "Left column title"
-msgstr "Vasemman sarakkeen otsikko"
+#~ msgid "Yellow (#ebc041)"
+#~ msgstr "Keltainen (#ebc041)"
 
-#: inc/metaboxes.php:223
-msgid "Left column"
-msgstr "Vasen sarake"
-
-#: inc/metaboxes.php:237
-msgid "Right column title"
-msgstr "Oikean sarakkeen otsikko"
-
-#: inc/metaboxes.php:251
-msgid "Right column"
-msgstr "Oikea sarake"
-
-#: inc/metaboxes.php:265
-msgid "Social media title"
-msgstr "Sosiaalisen media otsikko"
-
-#: inc/metaboxes.php:307
-msgid "Footer emails"
-msgstr "Footerin sähköpostiosoitteet"
-
-#: inc/metaboxes.php:325
-msgid "Email fields"
-msgstr "Sähköpostiosoitteet"
-
-#: inc/metaboxes.php:329
-msgid "Email {#}"
-msgstr "Sähköposti {#}"
-
-#: inc/metaboxes.php:331
-msgid "Add Another Email"
-msgstr "Lisää uusi sähköposti"
-
-#: inc/metaboxes.php:333
-msgid "Remove Email"
-msgstr "Poista sähköposti"
-
-#: inc/metaboxes.php:359
-msgid "Email"
-msgstr "Sähköposti"
+#~ msgid "Brown (#d5754c)"
+#~ msgstr "Ruskea (#d5754c)"
 
 #~ msgid "Seinäjoki black logo"
 #~ msgstr "Seinäjoen musta logo"
