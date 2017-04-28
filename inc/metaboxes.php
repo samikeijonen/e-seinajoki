@@ -61,11 +61,11 @@ function e_seinajoki_front_page_info() {
 		'name'     => esc_html__( 'Title color', 'e-seinajoki' ),
 		'id'       => 'title_color',
 		'type'     => 'select',
-		'default'  => '089abf',
+		'default'  => '0099ab',
 		'options'  => array(
-			'39aecc' => __( 'Blue (#39aecc)', 'e-seinajoki' ),
-			'ebc041' => __( 'Yellow (#ebc041)', 'e-seinajoki' ),
-			'd5754c' => __( 'Brown (#d5754c)', 'e-seinajoki' ),
+			'0099ab' => __( 'Turquoise (#0099ab)', 'e-seinajoki' ),
+			'ffc425' => __( 'Yellow (#ffc425)', 'e-seinajoki' ),
+			'e50e63' => __( 'Pink (#e50e63)', 'e-seinajoki' ),
 		),
 	) );
 
